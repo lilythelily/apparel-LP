@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- This is a Frontend Mentor coding challenge:) -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main>
+        <img src="images/logo.svg" alt="logo" width="120px" />
+
+        <h1>
+          <span class="we">We're</span><br />
+          coming<br />
+          soon
+        </h1>
+
+        <p class="description">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <div class="button" id="deskBtn">
+          <input type="text" placeholder="Email Address" id="inputDesk" />
+          <div class="arrow" id="arrow1">
+            <img src="images/icon-arrow.svg" alt="arrow" width="8px" />
+          </div>
+        </div>
+        <p class="message hide" id="msgDesk">Please provide a valid email</p>
+      </main>
+
+      <img class="woman" src="images/hero-desktop.jpg" alt="woman" />
+    </div>
+
+    <!-- mobile -->
+
+    <div class="wrapper2">
+      <img class="mobile-logo" src="images/logo.svg" alt="logo" width="100px" />
+
+      <img class="woman2" src="images/hero-mobile.jpg" alt="woman" />
+
+      <main>
+        <h1>
+          <span class="we">We're</span><br />
+          coming<br />
+          soon
+        </h1>
+
+        <p class="description">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <div class="button" id="mobileBtn">
+          <input type="text" placeholder="Email Address" id="inputMobile" />
+          <div class="arrow" id="arrowMobile">
+            <img src="images/icon-arrow.svg" alt="arrow" width="8px" />
+          </div>
+        </div>
+        <p class="message hide" id="msgMobile">Please provide a valid email</p>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
